@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF3C12E780F3E9F8BA554DE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231E53CC8705DC008E468B10 /* AssetsLibrary.framework */; };
+		4298BB079BDB6C2955403603 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BBFBF30A3CEB50C225F9AB /* CoreTelephony.framework */; };
 		65785E4A1C0C58DA00BC07DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E491C0C58DA00BC07DD /* main.m */; };
 		65785E4D1C0C58DA00BC07DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E4C1C0C58DA00BC07DD /* AppDelegate.m */; };
 		65785E501C0C58DA00BC07DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E4F1C0C58DA00BC07DD /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		65785E581C0C58DA00BC07DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65785E561C0C58DA00BC07DD /* LaunchScreen.storyboard */; };
 		65785E631C0C58DA00BC07DD /* MyHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E621C0C58DA00BC07DD /* MyHelloWorldTests.m */; };
 		65785E6E1C0C58DA00BC07DD /* MyHelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E6D1C0C58DA00BC07DD /* MyHelloWorldUITests.m */; };
+		73A80EC82942BFFA1352C460 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65A0DA11F4B1EDDC36CD67B /* SystemConfiguration.framework */; };
+		7943A26A2674E1CB2D1B86F7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330E528751935C26A8C58BAC /* BuddyBuildSDK.framework */; };
+		84F3134C1B9B7229D6BA5631 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC21622BB7757F8AF886D48 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231E53CC8705DC008E468B10 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		330E528751935C26A8C58BAC /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		38BBFBF30A3CEB50C225F9AB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		65785E451C0C58DA00BC07DD /* MyHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65785E491C0C58DA00BC07DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65785E4B1C0C58DA00BC07DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		65785E691C0C58DA00BC07DD /* MyHelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65785E6D1C0C58DA00BC07DD /* MyHelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHelloWorldUITests.m; sourceTree = "<group>"; };
 		65785E6F1C0C58DA00BC07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC21622BB7757F8AF886D48 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F65A0DA11F4B1EDDC36CD67B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7943A26A2674E1CB2D1B86F7 /* BuddyBuildSDK.framework in Frameworks */,
+				3CF3C12E780F3E9F8BA554DE /* AssetsLibrary.framework in Frameworks */,
+				84F3134C1B9B7229D6BA5631 /* CoreText.framework in Frameworks */,
+				4298BB079BDB6C2955403603 /* CoreTelephony.framework in Frameworks */,
+				73A80EC82942BFFA1352C460 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				65785E611C0C58DA00BC07DD /* MyHelloWorldTests */,
 				65785E6C1C0C58DA00BC07DD /* MyHelloWorldUITests */,
 				65785E461C0C58DA00BC07DD /* Products */,
+				93D47AA1A9285EBF50E8E811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +154,18 @@
 				65785E6F1C0C58DA00BC07DD /* Info.plist */,
 			);
 			path = MyHelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		93D47AA1A9285EBF50E8E811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330E528751935C26A8C58BAC /* BuddyBuildSDK.framework */,
+				231E53CC8705DC008E468B10 /* AssetsLibrary.framework */,
+				7FC21622BB7757F8AF886D48 /* CoreText.framework */,
+				38BBFBF30A3CEB50C225F9AB /* CoreTelephony.framework */,
+				F65A0DA11F4B1EDDC36CD67B /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +441,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyHelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Terence.MyHelloWorld;
@@ -425,6 +457,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyHelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Terence.MyHelloWorld;
@@ -499,6 +535,7 @@
 				65785E741C0C58DA00BC07DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65785E751C0C58DA00BC07DD /* Build configuration list for PBXNativeTarget "MyHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +544,7 @@
 				65785E771C0C58DA00BC07DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65785E781C0C58DA00BC07DD /* Build configuration list for PBXNativeTarget "MyHelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +553,7 @@
 				65785E7A1C0C58DA00BC07DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
