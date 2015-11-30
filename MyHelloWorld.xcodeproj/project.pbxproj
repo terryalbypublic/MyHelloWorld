@@ -17,6 +17,7 @@
 		65785E581C0C58DA00BC07DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65785E561C0C58DA00BC07DD /* LaunchScreen.storyboard */; };
 		65785E631C0C58DA00BC07DD /* MyHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E621C0C58DA00BC07DD /* MyHelloWorldTests.m */; };
 		65785E6E1C0C58DA00BC07DD /* MyHelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E6D1C0C58DA00BC07DD /* MyHelloWorldUITests.m */; };
+		65785E7C1C0C846600BC07DD /* SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65785E7B1C0C846600BC07DD /* SearchTests.m */; };
 		73A80EC82942BFFA1352C460 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65A0DA11F4B1EDDC36CD67B /* SystemConfiguration.framework */; };
 		7943A26A2674E1CB2D1B86F7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330E528751935C26A8C58BAC /* BuddyBuildSDK.framework */; };
 		84F3134C1B9B7229D6BA5631 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC21622BB7757F8AF886D48 /* CoreText.framework */; };
@@ -59,6 +60,7 @@
 		65785E691C0C58DA00BC07DD /* MyHelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65785E6D1C0C58DA00BC07DD /* MyHelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHelloWorldUITests.m; sourceTree = "<group>"; };
 		65785E6F1C0C58DA00BC07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65785E7B1C0C846600BC07DD /* SearchTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTests.m; sourceTree = "<group>"; };
 		7FC21622BB7757F8AF886D48 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		F65A0DA11F4B1EDDC36CD67B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				65785E621C0C58DA00BC07DD /* MyHelloWorldTests.m */,
+				65785E7B1C0C846600BC07DD /* SearchTests.m */,
 				65785E641C0C58DA00BC07DD /* Info.plist */,
 			);
 			path = MyHelloWorldTests;
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65785E631C0C58DA00BC07DD /* MyHelloWorldTests.m in Sources */,
+				65785E7C1C0C846600BC07DD /* SearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
